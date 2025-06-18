@@ -1,0 +1,11 @@
+[project]
+name = "handy-tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-cloud-vision>=3.10.2",
+    "google-cloud>=0.34.0",
+    "google-cloud-bigquery>=3.34.0",
+]
