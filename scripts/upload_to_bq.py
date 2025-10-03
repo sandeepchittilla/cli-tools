@@ -1,10 +1,12 @@
+"""
+Script to upload a .csv file as a BQ table. Assumes authenticated and logged into GCP on cli.
+"""
+
 import sys
 
 from google.cloud import bigquery
 
 if __name__=="__main__":
-##	print(sys.argv[1], sys.argv[2])
-##	exit(1)
 	file_path = sys.argv[1] # input csv file
 	try:
 		assert file_path.endswith(".csv")
